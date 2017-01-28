@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int * Print(int *start, int *end)
+	{
+		int *largest = start;
+		while (start != end)
+			
+ 		 {	
+			if (*start > *largest) 
+			   {
+				largest = start;
+				
+			   }	
+
+						
+			printf("numbers: %d\n",*start);
+			
+			start++;
+		 }	
+		return largest;
+	}
+
+
+int main()
+ {
+	int numbers[] ={1,2,3,4,5};	
+	
+	
+	int size = sizeof(numbers)/sizeof(numbers[0]);
+	
+	
+	int *Largest =  Print(numbers,size + numbers);
+	printf("The largest value is:%d",*Largest);
+	
+  }
+

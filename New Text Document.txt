@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+ int string[] = "Hello World";
+printf("size: %d\n",(int) sizeof(string)/sizeof(string[0]));
+
+}
