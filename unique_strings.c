@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
- 
+
 
 int isUnique (char *str)
 {
@@ -35,10 +35,9 @@ int main ()
 	{
 		printf("The string %s is Unique",string);
 	}
-	else 
+	else
 	{
 		printf("The string %s is  not Unique",string);
 	}
 
 }
-	
