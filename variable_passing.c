@@ -4,7 +4,7 @@
 void get_message(char * msg)
  {
 
- 	*msg= "aren't ponters fun?";
+   *msg= "aren't ponters fun?";
 
  }
 
@@ -12,11 +12,11 @@ void get_message(char * msg)
  int main(void)
 
  {
- 	char *string;
- 	get_message(string);
+   char *string;
+   get_message(string);
   puts("Krishna");
   puts(string);
- 	return 0;
+   return 0;
 
 
  }
